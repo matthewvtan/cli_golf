@@ -1,0 +1,92 @@
+Last login: Mon Feb 27 16:47:36 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.1
+Homebrew 1.1.10 Homebrew/homebrew-core (git revision 28c4; last commit 2017-02-27)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
+node v7.6.0
+psql (PostgreSQL) 9.6.2
+------------------------------------------
+type unwelcome to remove this message
+MATTATAT ~
+$ pwd
+/Users/MATTATAT
+MATTATAT ~
+$ rm ~/Documents/GA/cli_golf-master/kitchen/cans.txt
+removed '/Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/cans.txt'
+MATTATAT ~
+$ cd ~/Documents/GA/cli_golf-master/
+MATTATAT ~/Documents/GA/cli_golf-master
+$ ls
+LICENSE.txt*  README.md*  kitchen/  kitchen.zip*
+MATTATAT ~/Documents/GA/cli_golf-master
+$ cd kitchen/
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ mv ~/Documents/GA/cli_golf-master/kitchen/fridge/trashcan/ ~/Documents/GA/cli_golf-master/kitchen/
+'/Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/fridge/trashcan/' -> '/Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/trashcan'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ mv ~/Documents/GA/cli_golf-master/kitchen/trashcan/sink/ ~/Documents/GA/cli_golf-master/kitchen/
+'/Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/trashcan/sink/' -> '/Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/sink'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ atom ~/.bash_profile
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ ~/Documents/gA/cli_golf-master/kitchen/pantry/crisper-drawer/ fridge/
+-bash: /Users/MATTATAT/Documents/gA/cli_golf-master/kitchen/pantry/crisper-drawer/: is a directory
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ ~/Documents/GA/cli_golf-master/kitchen/pantry/crisper-drawer/ fridge/
+-bash: /Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/pantry/crisper-drawer/: is a directory
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ mv ~/Documents/GA/cli_golf-master/kitchen/pantry/crisper-drawer/ fridge/
+'/Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/pantry/crisper-drawer/' -> 'fridge/crisper-drawer'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ touch apple.txt
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ mv apple.txt fridge/crisper-drawer/
+'apple.txt' -> 'fridge/crisper-drawer/apple.txt'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ cd fridge/crisper-drawer/
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/fridge/crisper-drawer
+$ mv apple.txt apples.txt
+'apple.txt' -> 'apples.txt'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/fridge/crisper-drawer
+$ cd ..
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/fridge
+$ cd ..
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ cd fridge/
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/fridge
+$ rm freezer/couch.txt
+removed 'freezer/couch.txt'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/fridge
+$ cd ..
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ cd sink/
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ touch drying-rack/
+touch: drying-rack/: No such file or directory
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ mkdir drying-rack/
+gmkdir: created directory 'drying-rack/'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ touch ~/Documents/GA/cli_golf-master/kitchen/sink/drying-rack/clean-dishes.txtMATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt  drying-rack/
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ mv clean-dishes.txt drying-rack/
+'clean-dishes.txt' -> 'drying-rack/clean-dishes.txt'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ rm ~/Documents/GA/cli_golf-master/kitchen/fridge/diapers.txt
+removed '/Users/MATTATAT/Documents/GA/cli_golf-master/kitchen/fridge/diapers.txt'
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen/sink
+$ cd ..
+MATTATAT ~/Documents/GA/cli_golf-master/kitchen
+$ 
